@@ -4,11 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca948438-ef9c-4eb2-9227-b2a313adb149" name="Changes" comment="" />
+    <list default="true" id="ca948438-ef9c-4eb2-9227-b2a313adb149" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepup/CashingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepup/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepup/Fractionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepup/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepup/annotations/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stepup/annotations/Mutator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepup/testing/AppCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepup/testing/FractionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepup/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepup/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepup/testing/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepup/testing/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,22 +41,137 @@
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2diCpX7RyRJclIqTPKFqag12RP8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.App.executor": "Run",
+    "JUnit.AppCopyTest.testAnnotationMethodCachedClear.executor": "Run",
+    "JUnit.AppCopyTest.testAnnotationMethodCachedNoClear.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.AppTest.testAnnotationMethodCached.executor": "Run",
+    "JUnit.AppTest.testAnnotationMethodCachedClear.executor": "Run",
+    "JUnit.AppTest.testAnnotationMethodCachedNoClear.executor": "Run",
+    "JUnit.AppTest.testAnnotationMethodOneCached.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="stepup" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stepup" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.testAnnotationMethodCachedNoClear">
+    <configuration name="AppCopyTest.testAnnotationMethodCachedClear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepup.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepup.testing" />
+      <option name="MAIN_CLASS_NAME" value="stepup.testing.AppCopyTest" />
+      <option name="METHOD_NAME" value="testAnnotationMethodCachedClear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAnnotationMethodCached" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepup.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepup.testing" />
+      <option name="MAIN_CLASS_NAME" value="stepup.testing.AppTest" />
+      <option name="METHOD_NAME" value="testAnnotationMethodCached" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAnnotationMethodCachedClear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepup.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepup.testing" />
+      <option name="MAIN_CLASS_NAME" value="stepup.testing.AppTest" />
+      <option name="METHOD_NAME" value="testAnnotationMethodCachedClear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAnnotationMethodCachedNoClear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepup.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepup.testing" />
+      <option name="MAIN_CLASS_NAME" value="stepup.testing.AppTest" />
+      <option name="METHOD_NAME" value="testAnnotationMethodCachedNoClear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAnnotationMethodOneCached" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepup.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepup.testing" />
+      <option name="MAIN_CLASS_NAME" value="stepup.testing.AppTest" />
+      <option name="METHOD_NAME" value="testAnnotationMethodOneCached" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.testAnnotationMethodCachedNoClear" />
+        <item itemvalue="JUnit.AppTest.testAnnotationMethodCachedClear" />
+        <item itemvalue="JUnit.AppTest.testAnnotationMethodOneCached" />
+        <item itemvalue="JUnit.AppTest.testAnnotationMethodCached" />
+        <item itemvalue="JUnit.AppCopyTest.testAnnotationMethodCachedClear" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,11 +180,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710481696938</updated>
-      <workItem from="1710481697988" duration="7000" />
+      <workItem from="1710481697988" duration="15612000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1710482094998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710482094998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>
